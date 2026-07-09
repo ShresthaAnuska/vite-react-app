@@ -24,8 +24,11 @@ export default function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
+        {/* flexbox */}
         <Route index element={<Home />} />
+        {/* grid */}
         <Route path="about" element={<About />} />
+        {/*table  */}
         <Route path="contact" element={<Contact name={"Tech AI"} location={"New "} classes={"CSIT"} />} />
       </Route>
     </Routes>
